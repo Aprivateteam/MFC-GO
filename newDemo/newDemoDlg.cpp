@@ -64,6 +64,7 @@ BEGIN_MESSAGE_MAP(CnewDemoDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	//ON_BN_CLICKED(IDC_MFCBUTTON4, &CnewDemoDlg::OnBnClickedMfcbutton4)
 END_MESSAGE_MAP()
 
 
@@ -151,4 +152,7 @@ HCURSOR CnewDemoDlg::OnQueryDragIcon()
 {
 	return static_cast<HCURSOR>(m_hIcon);
 }
+
+
+
 
