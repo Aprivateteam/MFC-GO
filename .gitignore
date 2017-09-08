@@ -1,3 +1,4 @@
+
 # Prerequisites
 *.d
 
@@ -30,3 +31,17 @@
 *.exe
 *.out
 *.app
+
+# Big but redundant files
+*.sdf
+*.ipch
+*.pdb
+*.idb
+Debug/
+Debug/*
+*.idb
+*.pdb
+*/Debug/*
+*.tlog
+*.aps
+*.opensdf
