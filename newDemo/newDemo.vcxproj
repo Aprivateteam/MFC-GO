@@ -189,7 +189,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LoginDlg.h" />
     <ClInclude Include="newDemo.h" />
     <ClInclude Include="newDemoDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -197,7 +196,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LoginDlg.cpp" />
     <ClCompile Include="newDemo.cpp" />
     <ClCompile Include="newDemoDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -219,9 +217,4 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties RESOURCE_FILE="newDemo.rc" />
-    </VisualStudio>
-  </ProjectExtensions>
 </Project>
